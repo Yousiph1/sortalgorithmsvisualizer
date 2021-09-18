@@ -1,0 +1,31 @@
+.bar {
+  position: relative;
+  width: 100%;
+  display: flex;
+  background: #282c34;
+  align-self: flex-end;
+  border-left: .2px solid white;
+  justify-content: center;
+  color: white;
+}
+
+.bar p {
+  position: absolute;
+  margin: 0;
+  bottom: 2px;
+  font-size: 8px;
+}
+
+.active {
+  background-color: red
+}
+.current {
+  background-color: blue
+}
+
+.to-swap {
+  background-color: yellow
+}
+.in-place {
+  background-color: green
+}

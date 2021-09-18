@@ -1,0 +1,70 @@
+.bars-container {
+  position: absolute;
+  padding-top: 40px;
+  height: auto;
+  width: 99%;
+  display: flex;
+  justify-content: center;
+  border-bottom: 5px solid  black;
+  border-right: 5px solid black;
+  bottom: 5px;
+}
+
+
+.controls-container {
+  margin-top: 10px;
+  display: flex;
+  justify-content: center;
+}
+
+#tour {
+  position: absolute;
+  padding: 3rem;
+  padding-bottom: 15px;
+  background-color: #282c34;
+  top: 20%;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 1;
+  color: white;
+  font-size: 1.2em;
+  box-shadow: 2px 2px 5px gray;
+}
+@media Only screen and (max-width: 800px) {
+  #tour {
+    width: 80%;
+    padding: 20px;
+    font-size: 1em;
+  }
+}
+
+#tour button {
+  margin-top: 10px;
+  padding: 3px 10px;
+}
+
+.generate-config {
+  display: none;
+  position: absolute;
+  padding: 3rem;
+  background-color: #282c34;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 1;
+  box-shadow: 2px 2px 5px gray;
+}
+.generate-config label {
+  color: white
+}
+
+.config-inputs {
+  display: flex;
+}
+input[type="number"], input[type="text"] {
+    margin-bottom: 10px;
+}
+
+#close-button {
+  float: right;
+  margin-top: -10px;
+}
